@@ -19,6 +19,7 @@ type State int
 
 type Task struct {
 	ID            uuid.UUID
+	ContainerID   uuid.UUID
 	Name          string
 	State         State
 	Image         string
